@@ -1,0 +1,170 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px 200px;
+    background-color: aquamarine;
+
+}
+
+header #name{
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 0, 123);
+    border-radius: 15px;
+}
+
+
+    
+    
+    
+
+header h2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #00c100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    transition: 1.5s;
+
+}
+header h2:hover{
+    
+    transform: scale(2);
+    
+}
+
+header .formulario1{
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    padding: 10px ;
+    
+}
+header .formulario1 #selectTarea{
+    cursor: pointer;
+}
+header .formulario1  #buttonGuardar{
+    cursor: pointer;
+}
+
+
+
+body section #filtros{
+    background-color:#F26B9C;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px ;
+    border-radius: 10px;
+    
+    
+}
+body section #filtros select{
+    cursor: pointer;
+}
+
+
+
+
+body .articulos{
+    
+    background-color: #8C2703;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+body .priority{
+    display: block;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+   
+
+
+body .priority .importante{
+    
+    background-color: #D91424;
+    
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    transition: 2s;
+}
+
+body .priority .importante:hover{
+    rotate: 30grad;
+    
+}
+
+
+body .priority .intermedio{
+
+    background-color: #F27127;
+    
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    transition: 2s;
+}
+
+body .priority .intermedio:hover{
+    rotate: 30grad;
+    
+}
+
+body .priority .secundario{
+    background-color: yellow;
+    
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+
+}
+
+body .priority .secundario:hover{
+    rotate: 30grad;
+    transition: 2s;
+}
+.undefined{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.undefined:last-child{
+    background-color: yellow;
+}
+.undefined:first-child{
+    background-color:red;
+}
+
+.undefined:nth-child(2){
+    background-color: #F27127;
+}
+
+
+
+ 
+
+
+

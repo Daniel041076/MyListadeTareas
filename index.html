@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Lista de Tareas</title>
+    <script src="./js/datos.js"></script>
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="name">My lista de Tareas</h1>
+        <div class="formulario1">
+            <input type="text" name="" id="inputTarea" placeholder="Introduce una tarea">
+            <select name="" id="selectTarea">
+                <option selected="">Selecciona una prioridad</option>
+                <option value="importante">Importante</option>
+                <option value="intermedio">Intermedio</option>
+                <option value="secundario">Secundario </option>
+            </select>
+            <input type="button" value="Guardar" id="buttonGuardar">
+        </div>
+        <div>
+            <h2>Debes completar todos los campos</h2>
+        </div>
+    </header>
+    <section>
+        <div id="filtros">
+            <label for="" class="filterTitle">FILTROS:</label>
+            <select name="" id="selectPrioridad" title="Presiona Intro para aplicar el filtro">
+                <option selected="">Selecciona una prioridad</option>
+                <option value="importante">Importante</option>
+                <option value="intermedio">Intermedio</option>
+                <option value="secundario">Secundario </option>
+
+            </select>
+            <input type="text" placeholder="Tarea a buscar" id="inputBuscador">
+        </div>
+
+        <div class="articulos">
+
+            <article class="articulo1">            
+                <h3>Hola</h3>
+                <input type="button" value="Eliminar">
+            </article>
+
+            <article class="articulo2">
+                <h3>Hola</h3>
+                <input type="button" value="Eliminar">
+            </article>
+
+            <article class="articulo3">
+                <h3>Hola</h3>
+                <input type="button" value="Eliminar" id="buttonEliminar">
+            </article>
+
+        </div>
+
+    </section>
+
+    <h4 class="prioridades">PRIORIDADES</h4>
+
+    <div class="priority">
+        <div class="importante">IMPORTANTE</div>
+        <div class="intermedio">INTERMEDIO</div>
+        <div class="secundario">SECUNDARIO</div>
+    </div>
+
+    <script src="./js/funciones.js"></script>
+    
+    
+    
+</body>
+</html>
